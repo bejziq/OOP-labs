@@ -11,7 +11,7 @@ public class Task10 {
             if (playerGuess < 1 || playerGuess > 100){
                 System.out.println("invalid guess");
                 continue;
-            }1
+            }
 
             if (playerGuess == correctAnswer){
                 System.out.println("you are correct");
