@@ -6,9 +6,13 @@ public class Student extends Person{
     private int grades;
 
 
-    public Student(String name, String address, int age, String country, int student_id, int grades) {
-        super(name, address, age, country);
+    public Student(String name, String address) {
+        super(name);
         this.credits = 0;
+    }
+
+    public Student(int student_id, int grades) {
+        super(String.valueOf(student_id));
         this.student_id = student_id;
         this.grades = grades;
     }

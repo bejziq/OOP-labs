@@ -2,8 +2,8 @@ package org.example.week4.Lab.Task1.People;
 
 public class Main {
     public static void main(String[] args) {
-        Person pekka = new Person("Pekka Mikkola", "Korsontie Street 1 03100 Vantaa");
-        Person esko = new Person("Esko Ukkonen", "Mannerheimintie Street 15 00100 Helsinki");
+        Person pekka = new Person("Pekka Mikkola");
+        Person esko = new Person("Esko Ukkonen");
         System.out.println(pekka);
         System.out.println(esko);
 
@@ -22,8 +22,8 @@ public class Main {
         System.out.println("------------------------------------------------------------------------");
         System.out.println();
 
-        Teacher Dino = new Teacher("Pekka Mikkola", "Korsontie Street 1 03100 Vantaa", 1200);
-        Teacher Becir = new Teacher("Esko Ukkonen", "Mannerheimintie 15 Street 00100 Helsinki", 5400);
+        Teacher Dino = new Teacher("Pekka Mikkola", "Korsontie Street 1 03100 Vantaa");
+        Teacher Becir = new Teacher("Esko Ukkonen", "Mannerheimintie 15 Street 00100 Helsinki");
         System.out.println( Becir );
         System.out.println( Dino );
 
@@ -33,10 +33,6 @@ public class Main {
             imran.study();
         }
         System.out.println( imran );
-
-        Person ali = new Person("Ali", "Gornje Rosulje bb", 21, "bih");
-        ali.getAge();
-
     }
 
 }

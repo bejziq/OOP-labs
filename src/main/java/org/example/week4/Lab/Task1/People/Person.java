@@ -6,9 +6,12 @@ public class Person {
     private int age;
     private String country;
 
-    public Person(String name, String address, int age, String country) {
+    public Person(String name) {
         this.name = name;
         this.address = address;
+    }
+
+    public Person(int age, String country) {
         this.age = age;
         this.country = country;
     }
