@@ -13,7 +13,7 @@ abstract class MenuItem implements Billable{
 
     @Override
     public double applyDiscount(double discountRate) {
-       return this.price - (discountRate / 100);
+       return this.price * (discountRate / 100);
     }
 
     @Override

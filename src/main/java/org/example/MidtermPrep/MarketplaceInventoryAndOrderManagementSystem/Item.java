@@ -14,7 +14,7 @@ abstract class Item implements Sellable{
 
     @Override
     public double calculateDiscount(double discountRate) {
-        return this.price - (discountRate/100);
+        return this.price * (discountRate/100);
     }
 
     @Override
