@@ -7,7 +7,7 @@ import java.util.ArrayList;
 public class Person {
     private String name;
     private int age;
-    private List<Order<? extends Item>> orders; // A list of orders associated with the customer. This list can contain orders of various item types.
+    private List<Order<? extends Item>> orders ; // A list of orders associated with the customer. This list can contain orders of various item types.
 
     public Person(String name, int age) {
         this.name = name;
